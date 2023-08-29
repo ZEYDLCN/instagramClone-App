@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:corners="http://schemas.android.com/aapt">
+
+    <solid android:color="#FFFFFF" /> <!-- Arka plan rengi -->
+    <stroke
+        android:color="#230303"
+        android:width="2dp" />
+
+</shape>
