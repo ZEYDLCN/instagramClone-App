@@ -71,13 +71,13 @@ public class FeedActivity extends AppCompatActivity {
                         Map<String, Object> getData = documentSnapshot.getData();
                         String userEmail = (String) getData.get("useremail");
                         String downloadUrl = (String) getData.get("downloadurl");
-                        String comment = (String) getData.get("comment");
+                          String comment = (String) getData.get("comment");
                         String postId = documentSnapshot.getId();
                         System.out.println(comment);
-
                         // Verileri kullanma veya işleme yapma
                         Post post=new Post(downloadUrl,userEmail,comment,postId);
                         postArrayList.add(post);
+
 
 
                     }
